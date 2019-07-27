@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": ["source.cpp","OpenCL.cpp","-L/Users/OKU_DAN/source/OpenCL/SDK/lib/x86_64","-lopencl","-I/Users/OKU_DAN/source/OpenCL/SDK/include","-o","out.exe"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
